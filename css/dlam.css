@@ -1,0 +1,433 @@
+.bod{/*整体*/
+    width: 318.5px;
+	position: relative;
+	bottom: 200px;
+	left: 100px;
+}
+/*头*/
+.hea{
+    height: 188.46px;
+    width: 173.56px;
+    background: #00a1e9;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(75deg);
+    position: relative;
+    top: 10.2px;
+    margin-left: 34.7px;
+}
+/*脸*/
+.hea .face {
+    height: 151px;
+    width: 160px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(80deg);
+    position: absolute;
+    right: 1.1px;
+    bottom: 32px;
+}
+/*眼睛*/
+.eyel{
+    height: 40px;
+    width: 33px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(29deg);
+    position: absolute;
+    right: 60px;
+    bottom: -17px;
+}
+.eyeblackl{ /*左眼珠*/
+    height: 8px;
+    width: 10px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 120px 147px 0 0;
+    transform: rotate(-26deg);
+    position: absolute;
+    left: 2px;
+    top: 14px;
+}
+.eyer{ /*右眼*/
+    height: 40px;
+    width: 25px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(-21deg);
+    position: absolute;
+    right: 97px;
+    bottom: -8px;
+}
+.eyeblackr{/*右眼珠*/
+    height: 7px;
+    width: 9px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 86px 95px 0 0;
+    transform: rotate(46deg);
+    position: absolute;
+    right: 4px;
+    top: 14px;
+}
+.biz{/*---------------鼻子*/
+    height: 23px;
+    width: 23px;
+    background: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 108px;
+    right: 85px;
+    opacity: 1;
+}
+.blight{/*鼻子高光*/
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: white;
+    position: absolute;
+    top: 9px;
+    left: 1px;
+}
+.bizs{
+    height: 60px;
+    width: 18px;
+    /* border-top: 2px solid black; */
+    border-left: 2px solid black;
+    /* border-bottom: 2px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    right: 84px;
+    bottom: 40px;
+    transform: rotate(-1deg);
+}
+/*---------------------------胡子*/
+[class^=hz]{
+/*     border-right: 2px solid black;
+border-left: 2px solid black; */
+    border-bottom: 2px solid black;
+    border-radius: 47%;
+    position: absolute;
+}
+.hz1{
+    height: 13px;
+    width: 42px;
+    bottom: 70px;
+    left: -1px;
+    transform: rotate(23deg);
+}
+.hz2{
+    height: 10px;
+    width: 39px;
+    bottom: 55px;
+    left: -5px;
+    transform: rotate(6deg);
+ }
+.hz3{
+    height: 10px;
+    width: 57px;
+    bottom: 60px;
+    left: 82px;
+    transform: rotate(-12deg);
+}
+.hz4{
+    height: 10px;
+    width: 50px;
+    bottom: 40px;
+    left: 87px;
+    transform: rotate(13deg);
+}
+.hz5{
+    height: 10px;
+    width: 51px;
+    bottom: 21px;
+    left: 80px;
+    transform: rotate(28deg);
+}
+.zuib{/*--------------------嘴巴*/
+    height: 60px;
+    width: 120px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(14.5deg) scaley(0.75) scalex(1.1);
+    position: absolute;
+    top: 46px;
+    left: 14px;
+}
+ .bozi{ /*-------------------脖子*/
+     background: red;
+     border: 2px solid rgb(19, 15, 15);
+     border-radius: 180% 30% 0 30%;
+     width: 90px;
+     height: 90px;
+     transform: rotate(22deg) scale(1.1);
+     position: absolute;
+     top: 122px;
+     left: 109px;
+     animation:bozi-dh 1s  infinite;
+     animation-direction:alternate;/* 反复来回播放 */
+}
+@keyframes bozi-dh {
+    100%{ top:118px; }
+}
+#ald{/*-----------------------铃铛*/
+    background: yellow;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border:2px solid black;
+    position: absolute;
+    top: 128px;
+    right: 124px;
+    overflow: hidden;
+    z-index:2;
+    animation:ald-dh 1s  infinite;
+	animation-direction:alternate;/* 反复来回播放 */
+	
+@keyframes ald-dh {
+    100%{ top:122px; }
+}
+.aldx1{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 260%;
+    position: absolute;
+    height: 20px;
+    width: 44px;
+    bottom: 0px;
+    left: -7px;
+    transform: rotate(-23deg);
+}
+.aldd{
+    height: 10px;
+    width: 7px;
+    background: black;
+    border-radius: 50%;
+    transform: rotate(69deg);
+    position: absolute;
+    left: 17px;
+    bottom: 11px;
+    font-weight:bold;
+}
+.aldx2{
+    height: 14px;
+    width: 6px;
+    border-radius: 39%;
+    border-right: 2px solid black;
+    transform: rotate(-3deg);
+    position: absolute;
+    left: 16px;
+    bottom: 2px;
+}
+/*--------------------身体*/
+.shent{
+    width: 130px;
+    height: 139px;
+    background: #00a1e9;
+    position: absolute;
+    border-radius: 48% 35% 43% 46%;
+    border: 2px solid black;
+    top: 131px;
+    left: 114px;
+    transform: rotate(67deg);
+}
+/*--------------------肚子*/
+.dz{
+    width: 112px;
+    height: 101px;
+    background: white;
+    position: absolute;
+    border-radius: 101% 141% 93% 134%;
+    border: 2px solid black;
+    top: 2px;
+    left: -8px;
+    transform: rotate(91deg);
+    z-index:1;
+    animation:duzi-dh 1s linear infinite;
+    animation-direction:alternate;/* 反复来回播放 */
+}
+/*--肚子动*/
+@keyframes duzi-dh {
+    100% {  left:-1.5px;top:6px; transform: rotate(91deg) scale(1.11)}
+}
+.kd{/*------------口袋*/
+    width: 79px;
+    height: 39.2px;
+/*    border-right: 2px solid black;
+    border-left: 2px solid black;*/
+    border-top: 2px solid black;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(5.5deg) scalex(0.87) scalex(1.1);
+    position: absolute;
+    top: 12px;
+    left: 8.5px;
+}
+.kdk{
+    width: 84px;
+    height: 35px;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 79% 79%;
+    transform: rotate(0.5deg) scalex(0.95);
+    position: absolute;
+    top: 13.5px;
+    left: -1.2px;
+}
+/*--------------------手-*/
+.hand-left{
+    width: 35px;
+    height: 35px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 157px;
+    left: 33.1px;
+}
+.hand-h{/*---------手臂遮挡-*/
+    width: 100px;
+    height: 86px;
+    background: #00a1e9;
+    position: absolute;
+    border-radius: 60%;
+    top: 42px;
+    left: -5px;
+    transform: rotate(241deg);
+}
+.arm-left{/*---------左手臂-*/
+    width: 41.5px;
+    height: 122px;
+    background: #00a1e9;
+    position: absolute;
+    border-radius: 61.8% 63% 54% 54%;
+    border: 2px solid black;
+    border-top: none;
+    top: 63px;
+    left: 10.1px;
+    transform: rotate(-23deg);
+}
+.hand-right{/*右手*/
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 36px;
+}
+.arm-right{/*右手臂*/
+    width: 35.5px;
+    height: 63px;
+    background: #00a1e9;
+    border-radius: 60%;
+    border: 2px solid black;
+    position: absolute;
+    top: -14px;
+    right: 74px;
+    transform: rotate(41deg);
+    z-index: 0;
+}
+/*脚*/
+.foot-r{
+    width: 42px;
+    height: 15px;
+    position: absolute;
+    border-radius: 60%;
+    border-bottom: 2px solid black;
+    bottom: 89px;
+    left: 120.5px;
+    transform: rotate(115deg);
+    box-shadow: -5px 13px 0 4px #00a1e9;
+}
+.foot-left{
+    height: 72px;
+    width: 51px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 67%;
+    transform: rotate(-64deg);
+    position: absolute;
+    right: -8px;
+    bottom: -6px;
+    z-index: 2;
+}
+.foot-right{
+    height: 69px;
+    width: 48px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 67%;
+    transform: rotate(-64deg);
+    position: absolute;
+    right: -19px;
+    top: -39px;
+    z-index: 2;
+}
+/*---------------------泡泡*/
+.pp{
+    position: absolute;
+    left: -107px;
+    top: -29px;
+    width: 36px;
+    height: 36px;
+    background: #d9f2f3;
+    border: 2px solid #82b9e5;
+    border-radius: 100%;
+    animation:pp-dh 1s infinite;
+    animation-direction:alternate;
+}
+@keyframes pp-dh {
+    100%{ top:-49px;transform:scale(1.5);}
+}
+.pp-light{
+    width: 15px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.ppj1{
+    border: 0 solid transparent;
+    border-top: 34.5px solid #82b9e5;
+    border-radius: 0 88%;
+    position: absolute;
+    bottom: -34px;
+    left: 2px;
+    height: 30px;
+    width: 40px;
+    transform: rotate(42deg);
+    z-index: 0;
+}
+.ppj2{
+    border: 0 solid transparent;
+    border-top: 31px solid #d9f2f3;
+    border-radius: 0 88%;
+    position: absolute;
+    bottom: -29px;
+    left: 4px;
+    height: 28px;
+    width: 37px;
+    transform: rotate(38deg) scaley(0.99);
+}
+.ppj3h{
+    position: absolute;
+    left: 9px;
+    top: 31px;
+    width: 8px;
+    height: 21px;
+    box-shadow: 10px 0px 0 3px #d9f2f3;
+    border-right: 2px solid #82b9e5;
+    border-radius: 45%;
+    transform: rotate(305deg);
+}

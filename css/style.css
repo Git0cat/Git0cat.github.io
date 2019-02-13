@@ -487,6 +487,7 @@ li {
 .header-sidebar-menu {
 	position: absolute;
 	left: 1rem;
+	border-radius: 4px;
 	top: 50%;
 	border: 2px solid #fff;
 	width: 1.5rem;

@@ -307,7 +307,7 @@ li {
 .back-top {
 	position: fixed;
 	display: block;
-	left: 1rem;
+	right: 1rem;
 	bottom: 1rem;
 	z-index: 10;
 	opacity: 0;
@@ -315,13 +315,15 @@ li {
 	height: 1.5rem;
 	text-align: center;
 	line-height: 1.5rem;
-	border: 2px solid #000;
+	border: 2px solid #6bccff;
+	border-radius: 4px;
 	background-color: rgba(255, 255, 255, 0.8);
+	color: #6bccff;
 	cursor: pointer
 }
 
 .back-top:hover {
-	background-color: #000;
+	background-color:#6bccff;
 	color: #fff
 }
 
@@ -503,18 +505,18 @@ li {
 
 .header-sidebar-menu:hover {
 	background-color: #fff;
-	color: #000;
+	color: #6bccff;
 	transform: translate(0, -50%)
 }
 
 .header-sidebar-menu-black {
-	color: #000;
+	color: #6bccff;
 	background-color: #fff;
-	border-color: #000
+	border-color: #6bccff;
 }
 
 .header-sidebar-menu-black:hover {
-	background-color: #000;
+	background-color: #6bccff;
 	color: #fff
 }
 
